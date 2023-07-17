@@ -7,10 +7,12 @@
     <!-- "width=device-width" faz com que a largura da página seja definida para a largura do dispositivo, ou seja, se adapte ao tamanho da tela do dispositivo.
 "initial-scale=1.0" define o nível de escala inicial da página para 1.0, o que significa que a página é exibida sem nenhuma ampliação ou redução.-->
     <title>Meu Perfil</title>
+
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-    <ul>
+    <ul id = "menu">
         <li>
             <a href="index.html" target="_blank"> Home</a>
         </li>
@@ -21,25 +23,44 @@
 
 
 
-    <h1>Sobre o Thayron</h1>
+    <h1 id="main-titulo">Sobre</h1>
 
-    <p>
+    <p style="font-size: 30px; color: #078418; font-weight: bold;">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure consequatur quia dolorum ipsum accusamus, iusto
         necessitatibus magnam explicabo. Ducimus harum tempora non nobis quibusdam doloribus ab eius optio mollitia id!
     </p>
 
-    <p>
+    <p class="p-first">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore autem minus officia magni voluptates eaque
         dicta pariatur est tempora maxime nesciunt, a commodi mollitia eius quo quia aperiam nam quod!
     </p>
 
-    <img src="assets/img/foto paris.jpg" alt="Foto de Paris.">
+    <p class="p-first">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis dignissimos provident, vel hic harum,
+        doloremque sint minima quasi ullam inventore odio itaque corrupti, commodi facilis saepe iusto neque dolorum
+        maiores!
+    </p>
 
-    <h2>Meu Video</h2>
+    <p id="p-solo">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae nostrum qui fugit temporibus assumenda officiis
+        sunt unde quam, asperiores fugiat. Ab doloremque veritatis necessitatibus totam quis animi sed soluta quibusdam!
+    </p>
+
+    <img class = "container" src="assets/img/foto paris.jpg" alt="Foto de Paris.">
+
+    <h2 id="main-titulo">Meu Video</h2>
+    <div class = container>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/MrSWsv8bWB8" title="YouTube video player"
         frameborder="3"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen></iframe>
+    </div>
+
+    <footer>
+        <p class="center">
+        Todos os direitos reservados: Thayron Nogueira &copy;
+    </p>
+    </footer>
 </body>
 
 </html>
