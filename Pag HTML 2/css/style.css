@@ -1,13 +1,20 @@
-/* INDEX */
-.center{
+/* Estilos da página index */
+
+#main-titulo{
     text-align: center;
 }
 
-.container{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+.p-first{
+    text-align: center;
+    font-weight: bold;
+    color: #1e66f7;
+}
+
+#p-solo{
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+}
 
 #menu li{
     display: inline;
@@ -17,19 +24,38 @@
 #menu li a{
     text-decoration: none;
     color: black;
+
 }
 
 #menu li a:hover{
-    color: #9fc8e9;
+    color: #6e9b6d;
 }
 
-.p-style{
-    font-size: 20px;
-    color: #000000;
+.center{
+    text-align: center;
 }
+
+.tm-social{
+    width: 50px;
+    height: 50px;
+}
+
+.mb-50{
+    margin-bottom: 50px;
+}
+
+.justify{
+    text-align: justify;
+}
+
+.fs-25{
+    font-size: 25px;
+}
+
+/* Estilo da página contato */
 
 .p-30{
-    padding: 50px;
+    padding: 30px;
 }
 
 .br-50{
@@ -41,11 +67,13 @@
     height: 300px;
 }
 
-/* CONTATO */
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
 
-#footer{
-    text-align: center;
-    font-size: 15px;
-    font-weight: bold;
-    text-align: center;
+.ml-50{
+    margin-left: 50px;
 }
